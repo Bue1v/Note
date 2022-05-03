@@ -4,6 +4,10 @@ Re1ife for MySQL
 
 
 
+SELECT xxx FROM xxx WHERE xxx GROUP BY xxx HAVING xxx ORDER BY xxx LIMIT x, x;
+
+
+
 ## 查询数据
 
 ### 基本查询
@@ -11,8 +15,6 @@ Re1ife for MySQL
 ```sql
 SELECT * FROM <表名>
 ```
-
-
 
 查询student表中所有数据
 
@@ -33,8 +35,6 @@ SELECT 1;
 ```sql
 SELECT * FROM <表名> WHERE <条件表达式>
 ```
-
-
 
 查询分数在80分以上的学生记录：
 
